@@ -7,17 +7,17 @@ To install an Add-on in Zotero:
 
 Tools | Add-ons | (click Gear icon) | Install Add-on from file | (select .xpi file)
 
-Zotfile
+### Zotfile
 
 http://zotfile.com/
 
 Click "Download" to get zotfile-5.0.16-fx (1).xpi  
 
-Better Bibtex
+### Better Bibtex
 
 https://retorque.re/zotero-better-bibtex/
 
-MD Notes
+### MD Notes
 
 https://github.com/argenos/zotero-mdnotes/releases/tag/0.1.3
 
