@@ -79,11 +79,11 @@ Put in the content below (but with no ```)
 ```
 ---
 title: {{title}}
-authors: {{author}}
+authors: 
 year: 
 
-tags: {{tags}}
-date: {{date}}
+tags: 
+date: 
 ---
 {{title}}
 
