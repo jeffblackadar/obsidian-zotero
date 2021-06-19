@@ -1,0 +1,56 @@
+# Exporting Zotero entries as Markdown files.
+
+The MD Notes add-in is needed.  It depends on two other add-ins, so install these add-ins:
+
+Zotfile
+http://zotfile.com/
+
+Better Bibtex
+https://retorque.re/zotero-better-bibtex/
+
+MD Notes
+https://github.com/argenos/zotero-mdnotes/releases/tag/0.1.3
+
+Retart Zotero
+
+
+In MDNotes preferences add @ for file prefix
+
+Create templates
+https://argenos.gitbook.io/zotero-mdnotes/customization/templates
+├── Mdnotes Default Template.md
+├── Standalone Note Template.md
+├── Zotero Metadata Template.md
+└── Zotero Note Template.md
+
+
+create mdnotes file
+
+
+
+
+
+
+```
+---
+title: {{title}}
+authors: {{author}}
+year: 
+
+tags: {{tags}}
+date: {{date}}
+---
+{{title}}
+
+[Open in Zotero]
+{{localLibrary}}
+{{cloudLibrary}}
+
+
+### Summary
+{{notes}}
+
+### Own thoughts
+
+### Related topics / notes
+```
